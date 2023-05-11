@@ -1,7 +1,22 @@
 /* Set Font */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap');
+/* @fontface 
+step-1: https://www.dafont.com/ {chooce font}
+setp-2: https://transfonter.org/ {transform font for using web}
+*/
+@font-face {
+  font-family: 'Rosaline Signature';
+  src: url('./assets/font/RosalineSignatureRegular.woff') format('woff2'),
+      url('./assets/font/RosalineSignatureRegular.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
 /* Reset File */
 body {
   font-family: 'Open Sans', sans-serif;
+}
+.custom-font {
+  font-family: 'Rosaline Signature', cursive;
 }
