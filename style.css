@@ -20,3 +20,9 @@ body {
 .custom-font {
   font-family: 'Rosaline Signature', cursive;
 }
+h1.custom-font {
+  font-size: 3.5rem;
+  font-weight: 500;
+  color: red;
+  text-align: center;
+}
